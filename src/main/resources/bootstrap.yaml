@@ -1,0 +1,21 @@
+#spring:
+#  jpaspring:
+#    jpa:
+#      database: POSTGRESQL
+#  main:
+#    banner-mode: off
+#  datasource:
+#    platform: postgres
+#    url: jdbc:postgresql://dbpostgresql:5432/postgres
+#    username: postgres
+#    password: AccountantDatabase
+#  jpa:
+#    show-sql: true
+#    generate-ddl: true
+##    hibernate:
+##      ddl-auto: create-drop
+#    properties:
+#      hibernate:
+#        jdbc:
+#          lob:
+#            non_contextual_creation: true
