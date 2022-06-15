@@ -1,15 +1,10 @@
 package facturacion.servicios;
 
-import facturacion.modelos.Factura;
 import facturacion.modelos.Fisica;
 import facturacion.modelos.Juridica;
-import facturacion.modelos.Persona;
-import facturacion.modelos.Producto;
-import facturacion.modelos.enums.TipoFactura;
+import org.springframework.stereotype.Service;
 
-import java.util.Date;
-import java.util.List;
-
+@Service
 public class FacturaServicio {
 
     private Boolean validarVendedor(Fisica vendedor){
